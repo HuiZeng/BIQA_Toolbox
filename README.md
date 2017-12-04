@@ -1,5 +1,5 @@
 # Introducetion
-This Toolbox aims to provide a relatively fair benchmark performances of several popular CNN architectures on four representative image quality assessment (IQA) datasets.
+This Toolbox aims to provide relatively fair benchmark performances of several popular CNN architectures on four representative image quality assessment (IQA) datasets.
 
 
 #### Main functions
