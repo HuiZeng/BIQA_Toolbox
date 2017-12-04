@@ -8,7 +8,7 @@ This Toolbox aims to provide relatively fair benchmark performances of several p
 
 2. `crossDatasetTrainTest.m` trains a CNN model on one dataset and test performance on other datasets.
 
-3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. The source codes of some methods are too large to be included into this toolbox. You can first download and extract them into the ``supported_methods``.
+3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. The source codes of some methods are too large to be included into this toolbox. They need to be downloaded and extracted into the ``supported_methods`` before evaluating these methods.
 
 **How to run the Code**
 
