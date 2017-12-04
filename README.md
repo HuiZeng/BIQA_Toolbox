@@ -12,7 +12,7 @@ This Toolbox aims to provide relatively fair benchmark performances of several p
 
 **How to run the Code**
 
-1. Download the MatConvNet into ``tools`` and Compile it according to the guidence on [website](http://www.vlfeat.org/matconvnet/)
+1. Download the MatConvNet into ``tools`` and Compile it according to the guidence in [MatConvNet](http://www.vlfeat.org/matconvnet/)
 
 2. Create a new fold ``pretrained_models`` and download the pre-trained [AlexNet](http://www.vlfeat.org/matconvnet/models/imagenet-caffe-alex.mat) or [ResNet](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) into ``pretrained_models`` if necessary.
 
