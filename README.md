@@ -19,3 +19,11 @@ This Toolbox aims to provide relatively fair benchmark performances of several p
 3. Create a new fold ``databases``. Download an IQA dataset into ``databases`` and extract the files. Currently, four datasets are supported including the LIVE Challenge, LIVE IQA, CSIQ and TID2013.
 
 4. Run any of the three main functions.
+
+
+
+#### License
+
+This toolbox is made available for research purpose only. 
+
+We utilize the MatConvNet and libSVM toolboxes and re-implement some existing methods. Please check corresponding licence files for details.
