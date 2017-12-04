@@ -28,7 +28,7 @@ The average PSNR(dB) results of different methods on the BSD68 dataset.
 | AlexNet |  SQR  |   0.7658   | 0.9319  |   0.7965   |  0.5362 |
 | AlexNet |  PQR  |   0.8075   | 0.9554  |   0.8713   |  0.5742 |
 | ResNet50 |  SQR  |   0.8236   | 0.9468  | 0.8217 |  0.6406 |
-| ResNet50 |  PQR  |   **0.8568   | 0.9653**  | 0.8728 |  **0.7399** |
+| ResNet50 |  PQR  |   **0.8568**   | **0.9653**  | 0.8728 |  **0.7399** |
 | S_CNN |  SQR  |   0.6582   | 0.9450  | 0.8787 |    0.6526   |
 | S_CNN |  PQR  |   0.6766   | 0.9637  | **0.9080** |    0.6921  |
 
