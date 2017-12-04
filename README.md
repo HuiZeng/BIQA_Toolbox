@@ -1,4 +1,16 @@
 # Introduction
+
+This Toolbox contains the source code for the following article:
+
+  @article{DBLP:journals/corr/abs-1708-08190,
+    author    = {Hui Zeng and
+                 Lei Zhang and
+                 Alan C. Bovik},
+    title     = {A Probabilistic Quality Representation Approach to Deep Blind Image
+                 Quality Prediction},
+    url       = {http://arxiv.org/abs/1708.08190},
+  }
+
 This Toolbox aims to provide relatively fair benchmark performances of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
 
 
