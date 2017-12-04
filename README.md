@@ -16,9 +16,9 @@ This Toolbox also aims to provide relatively fair benchmark performances (using 
 
 #### Main functions
 
-1. `training_testing_CNNs.m` trains a CNN model using a proportion (e.g. 0.8) of images and test performance on the remaining images.
+1. `training_testing_CNNs.m` trains a CNN model using a proportion (e.g. 0.8) of images and tests performance on the remaining images.
 
-2. `crossDatasetTrainTest.m` trains a CNN model on one dataset and test performance on other datasets.
+2. `crossDatasetTrainTest.m` trains a CNN model on one dataset and tests performance on other datasets.
 
 3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. Except for NIQE, the source codes of other methods need to be downloaded and extracted into the ``supported_methods`` before evaluating these methods.
 
