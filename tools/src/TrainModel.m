@@ -48,7 +48,7 @@ if ~isfield(opts.train, 'gpus'), opts.train.gpus = [1]; end;
 
 if isempty(opts.network)
     if strcmp(opts.Model,'AlexNet')
-      net = load(fullfile('pretrained models','imagenet-caffe-alex.mat')); 
+      net = load(fullfile('pretrained_models','imagenet-caffe-alex.mat')); 
       net = vl_simplenn_tidy(net);
       net.layers = net.layers(1:end-2);
       net.layers{end+1} = struct('name','dropout1','type', 'dropout','rate', 0.5) ;
@@ -66,7 +66,7 @@ if isempty(opts.network)
       net.meta.trainOpts.numSubBatches = 1 ;
         net.meta.trainOpts.weightDecay = 0.0005;
     elseif strcmp(opts.Model,'ResNet')
-        netStruct = load(fullfile('pretrained models','imagenet-resnet-50-dag.mat')) ;
+        netStruct = load(fullfile('pretrained_models','imagenet-resnet-50-dag.mat')) ;
         net = dagnn.DagNN.loadobj(netStruct) ;
         net.removeLayer('fc1000');
         net.removeLayer('prob');
