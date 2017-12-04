@@ -11,7 +11,7 @@ This Toolbox contains the source code for the following article:
       url       = {http://arxiv.org/abs/1708.08190},
     }
 
-This Toolbox also aims to provide relatively fair benchmark performances of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
+This Toolbox also aims to provide relatively fair benchmark performances of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets, using the same training and testing splits.
 
 
 #### Main functions
