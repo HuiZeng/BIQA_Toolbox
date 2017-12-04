@@ -11,8 +11,7 @@ This Toolbox contains the source code for the following article:
       url       = {http://arxiv.org/abs/1708.08190},
     }
     
-Note that on some datasets such as TID2013, the performance varies greatly when using different training and testing splits. However, it is too cumbersome for the deep BIQA methods to repeat experiments as many times (usually more than 100) as the classical methods.  
-Thus, this Toolbox also aims to provide relatively fair benchmark performances (by using the same 10 randomly generated training and testing splits) of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
+Note that on some datasets such as TID2013, the performance varies greatly when using different training and testing splits. However, it is too cumbersome for the deep BIQA methods to repeat experiments as many times (usually more than 100) as the classical methods. Thus, this Toolbox also aims to provide relatively fair benchmark performances (by using the same 10 randomly generated training and testing splits) of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
 
 
 
