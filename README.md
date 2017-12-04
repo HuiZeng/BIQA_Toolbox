@@ -1,4 +1,4 @@
-# Introducetion
+# Introduction
 This Toolbox aims to provide relatively fair benchmark performances of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
 
 
