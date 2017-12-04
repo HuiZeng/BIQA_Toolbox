@@ -2,8 +2,13 @@
 This Toolbox aims to benchmark the performance of several popular CNN architectures on four representative image quality assessment (IQA) datasets.
 
 
-#### Installation
+#### Main functions
 
+1. `training_testing_CNNs.m` trains a CNN model using a proportion (e.g. 0.8) of images and test performance on the remaining images.
+
+2. `crossDatasetTrainTest.m` trains a CNN model on one dataset and test performance on other datasets.
+
+3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. 
 
 **How to run the Code**
 
