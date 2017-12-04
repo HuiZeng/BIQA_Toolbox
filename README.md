@@ -20,7 +20,14 @@ This Toolbox aims to provide relatively fair benchmark performances of several p
 
 4. Run any of the three main functions.
 
+# Results
+The average PSNR(dB) results of different methods on the BSD68 dataset.
 
+|  Methods | Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| 15  |  31.07  |   31.37   | 31.21  |   -   |  31.24 |
+| 25  |  28.57  |   28.83   | 28.68  | 28.96 |  28.74 |
+| 50  |  25.62  |   25.87   | 25.67  | 26.03 |    -   |  25.97 | **26.23** | **26.23**  |
 
 #### License
 
