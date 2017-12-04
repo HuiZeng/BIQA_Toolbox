@@ -10,8 +10,10 @@ This Toolbox contains the source code for the following article:
                    Quality Prediction},
       url       = {http://arxiv.org/abs/1708.08190},
     }
+    
+Note that on some datasets such as TID2013, the performance varies greatly when using different training and testing splits. However, it is too cumbersome for the deep BIQA methods to repeat experiments as many times (usually more than 100) as the classical methods.  
+Thus, this Toolbox also aims to provide relatively fair benchmark performances (using the same training and testing splits) of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
 
-This Toolbox also aims to provide relatively fair benchmark performances (using the same training and testing splits) of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
 
 
 #### Main functions
@@ -20,7 +22,7 @@ This Toolbox also aims to provide relatively fair benchmark performances (using 
 
 2. `crossDatasetTrainTest.m` trains a CNN model on one dataset and tests performance on other datasets.
 
-3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. Except for NIQE, the source codes of other methods need to be downloaded and extracted into the ``supported_methods`` before evaluating these methods.
+3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. Except for NIQE, the source codes of other methods need to be downloaded and extracted into the ``supported_methods`` before evaluating these methods. 
 
 **How to run the Code**
 
@@ -33,7 +35,7 @@ This Toolbox also aims to provide relatively fair benchmark performances (using 
 4. Run any of the three main functions.
 
 # Results
-The median SRCC (std SRCC) of different methods on different datasets.
+The median SRCC (std SRCC) of 10 repititions of different methods on different datasets.
 
 |  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
@@ -44,7 +46,7 @@ The median SRCC (std SRCC) of different methods on different datasets.
 | S_CNN_SQR |  0.6582 (0.0323)         | 0.9450 (0.0320)  | 0.8787 (0.0213) |    0.6526 (0.1136)   |
 | S_CNN_PQR |  0.6766 (0.0326)         | 0.9637 (0.0223) | **0.9080 (0.0212)** |    0.6921 (0.1246) |
 
-The median PLCC (std PLCC) of different methods on different datasets.
+The median PLCC (std PLCC) of 10 repititions of different methods on different datasets.
 
 |  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
