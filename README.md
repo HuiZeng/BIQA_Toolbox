@@ -33,14 +33,25 @@ This Toolbox also aims to provide relatively fair benchmark performances (using 
 4. Run any of the three main functions.
 
 # Results
-The median SRCC(std SRCC) of different methods on different datasets.
+The median SRCC (std SRCC) of different methods on different datasets.
 
 |  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | AlexNet_SQR | 0.7658 (0.0166)   | 0.9319  |   0.7965   |  0.5362 |
 | AlexNet_PQR | 0.8075 (0.0123)  | 0.9554  |   0.8713   |  0.5742 |
-| ResNet50_SQR | 0.8236   | 0.9468  | 0.8217 |  0.6406 |
-| ResNet50_PQR |  **0.8568**   | **0.9653**  | 0.8728 |  **0.7399** |
+| ResNet50_SQR | 0.8236 (0.0159)  | 0.9468  | 0.8217 |  0.6406 |
+| ResNet50_PQR |  **0.8568 (0.0095)**   | **0.9653**  | 0.8728 |  **0.7399** |
+| S_CNN_SQR |  0.6582   | 0.9450  | 0.8787 |    0.6526   |
+| S_CNN_PQR |  0.6766   | 0.9637  | **0.9080** |    0.6921  |
+
+The median PLCC (std PLCC) of different methods on different datasets.
+
+|  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
+|:-------:|:-------:|:-------:|:-------:|:-------:|
+| AlexNet_SQR | 0.8074 (0.0176)   | 0.9319  |   0.7965   |  0.5362 |
+| AlexNet_PQR | 0.8357 (0.0124)  | 0.9554  |   0.8713   |  0.5742 |
+| ResNet50_SQR | 0.8680 (0.0117)   | 0.9468  | 0.8217 |  0.6406 |
+| ResNet50_PQR |  **0.8822 (0.0098)**   | **0.9653**  | 0.8728 |  **0.7399** |
 | S_CNN_SQR |  0.6582   | 0.9450  | 0.8787 |    0.6526   |
 | S_CNN_PQR |  0.6766   | 0.9637  | **0.9080** |    0.6921  |
 
