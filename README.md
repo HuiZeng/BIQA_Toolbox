@@ -80,4 +80,4 @@ This toolbox will be constantly updated to include or re-implement state-of-the-
 
 This toolbox is made available for research purpose only. 
 
-We utilize the MatConvNet and libSVM toolboxes and re-implement some existing methods. Please check corresponding licence files for details.
+We utilize the MatConvNet and libSVM toolboxes and re-implement some existing methods. Please check their licence files for details.
