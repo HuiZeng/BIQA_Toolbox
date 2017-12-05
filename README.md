@@ -38,7 +38,7 @@ Note that on some datasets such as TID2013, the performance varies greatly when 
 # Results
 The median SRCC (std SRCC) of 10 repititions of different methods on different datasets.
 
-|  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
+|    Methods   | LIVE Challenge        | LIVE IQA             | CSIQ                |  TID2013             |
 |:------------:|:---------------------:|:--------------------:|:-------------------:|:--------------------:|
 | DIIVINE      | 0.5761 (0.0299)       | 0.8787 (0.0554)      | 0.7835 (0.1643)     |  0.5829 (0.0605)     |
 | CORNIA       | 0.6323 (0.0360)       | 0.9420 (0.0118)      | 0.7299 (0.0338)     |  0.6226 (0.0760)     |
@@ -56,7 +56,7 @@ The median SRCC (std SRCC) of 10 repititions of different methods on different d
 
 The median PLCC (std PLCC) of 10 repititions of different methods on different datasets.
 
-|  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
+|    Methods   |    LIVE Challenge     |    LIVE IQA         |         CSIQ        |       TID2013        |
 |:------------:|:---------------------:|:-------------------:|:-------------------:|:--------------------:|
 | DIIVINE      | 0.5955 (0.0303)       | 0.8813 (0.0379)     | 0.8362 (0.1710)     |  0.6723 (0.0641)     |
 | CORNIA       | 0.6613 (0.0356)       | 0.9457 (0.0119)     | 0.8036 (0.0253)     |  0.7038 (0.0669)     |
