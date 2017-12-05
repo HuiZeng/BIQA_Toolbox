@@ -31,7 +31,9 @@ Note that on some datasets such as TID2013, the performance varies greatly when 
 
 3. Create a new fold ``databases``. Download an IQA dataset into ``databases`` and extract the files. Currently, four datasets are supported including the LIVE Challenge, LIVE IQA, CSIQ and TID2013. 
 
-4. Run any of the three main functions.
+4. The 64-bit compiled libSVM are already included in tools. If they are not compatible to your devices, please download the [source code](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) and compile it on your own device.
+
+5. Run any of the three main functions.
 
 # Results
 The median SRCC (std SRCC) of 10 repititions of different methods on different datasets.
