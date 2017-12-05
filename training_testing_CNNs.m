@@ -16,7 +16,7 @@ trainingPropertion = 0.8;
 %% parameters for PQR
 quantizationMethod = 'uniform'; % LloydMax
 beta = 64;
-bins = 1;  % set bins=1 for scalar quality score regression
+bins = 5;  % set bins=1 for scalar quality score regression
 
 switch ModelType
     case 'AlexNet'
