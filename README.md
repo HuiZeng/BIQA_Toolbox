@@ -57,7 +57,7 @@ The median SRCC (std SRCC) of 10 repititions of different methods on different d
 The median PLCC (std PLCC) of 10 repititions of different methods on different datasets.
 
 |  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
-|:-------:|:-------:|:-------:|:-------:|:-------:|
+|:------------:|:-------------------:|:-------------------:|:-------------------:|:--------------------:|
 | DIIVINE      | 0.5955 (0.0303)     | 0.8813 (0.0379)     | 0.8362 (0.1710)     |  0.6723 (0.0641)     |
 | CORNIA       | 0.6613 (0.0356)     | 0.9457 (0.0119)     | 0.8036 (0.0253)     |  0.7038 (0.0669)     |
 | BRISQUE      | 0.6465 (0.0361)     | 0.9448 (0.0274)     | 0.8286 (0.0380)     |  0.6331 (0.0568)     |
