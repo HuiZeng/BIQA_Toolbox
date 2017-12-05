@@ -5,7 +5,7 @@ warning off;
 addpath('support_methods/');
 addpath(genpath('tools'));
 
-testDatabase = {'CSIQ'}; % LIVE CSIQ TID2013 ChallengeDB_release
+testDatabase = {'ChallengeDB_release'}; % LIVE CSIQ TID2013 ChallengeDB_release
 testMethod = {'NIQE'}; % BRISQUE, DIIVINE, FRIQUEE, CORNIA, NIQE, ILNIQE, HOSA
 trainingPropertion = 0.8;
 repetitions = 10;
