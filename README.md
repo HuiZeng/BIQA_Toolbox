@@ -41,7 +41,7 @@ The median SRCC (std SRCC) of 10 repititions of different methods on different d
 |  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | DIIVINE      | 0.5761 (0.0299)       | 0.8787 (0.0554)      | 0.7835 (0.1643)     |  0.5829 (0.0605)     |
-| CORNIA       | 0.6323 (0.0360)       | 0.9420 (0.0118)      | 0.7299 ()     |  0.6226 ()     |
+| CORNIA       | 0.6323 (0.0360)       | 0.9420 (0.0118)      | 0.7299 (0.0338)     |  0.6226 ()     |
 | BRISQUE      |  ()       | 0.9374 ()      | 0.7502 ()     |  0.5258 ()     |
 | NIQE         |  ()       | 0.9154 ()      | 0.6298 ()     |  0.2992 ()     |
 | IL-NIQE      |  ()       | 0.9017 ()      | 0.8066 ()     |  0.5185 ()     |
@@ -59,7 +59,7 @@ The median PLCC (std PLCC) of 10 repititions of different methods on different d
 |  Methods | LIVE Challenge  | LIVE IQA | CSIQ |  TID2013 |
 |:-------:|:-------:|:-------:|:-------:|:-------:|
 | DIIVINE      | 0.5955 (0.0303)     | 0.8813 (0.0379)     | 0.8362 (0.1710)     |  0.6723 (0.0641)     |
-| CORNIA       | 0.6613 (0.0356)     | 0.9457 (0.0119)     | 0.8036 ()     |  0.7038 ()     |
+| CORNIA       | 0.6613 (0.0356)     | 0.9457 (0.0119)     | 0.8036 (0.0253)     |  0.7038 ()     |
 | BRISQUE      |  ()       | 0.9448 ()      | 0.8286 ()     |  0.6331 ()     |
 | NIQE         |  ()       | 0.9194 ()      | 0.7181 ()     |  0.4154 ()     |
 | IL-NIQE      |  ()       | 0.8654 ()      | 0.8083 ()     |  0.6398 ()     |
@@ -71,6 +71,10 @@ The median PLCC (std PLCC) of 10 repititions of different methods on different d
 | ResNet50_PQR | **0.8822 (0.0098)** | **0.9714 (0.093)**  | 0.9010 (0.0266)     |  **0.7980 (0.0848)** |
 | S_CNN_SQR    | 0.6729 (0.0309)     | 0.9455 (0.0249)     | 0.8987 (0.0234)     |  0.6921 (0.1314)     |
 | S_CNN_PQR    | 0.7032 (0.0298)     | 0.9656 (0.0219)     | **0.9267 (0.0219)** |  0.7497 (0.1089)     |
+
+# Update
+
+This toolbox will be constantly updated to include or re-implement state-of-the-art BIQA methods, especially on the [LIVE Challenge](http://live.ece.utexas.edu/publications/2016/ghadiyaram2016massive.pdf) dataset which is the existing largest dataset with authentic distortions.
 
 #### License
 
