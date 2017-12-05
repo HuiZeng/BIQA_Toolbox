@@ -76,7 +76,7 @@ The median PLCC (std PLCC) of 10 repititions of different methods on different d
 
 This toolbox will be constantly updated to include or re-implement state-of-the-art BIQA methods, especially on the [LIVE Challenge](http://live.ece.utexas.edu/publications/2016/ghadiyaram2016massive.pdf) dataset which is the existing largest dataset with authentic distortions.
 
-#### License
+# License
 
 This toolbox is made available for research purpose only. 
 
