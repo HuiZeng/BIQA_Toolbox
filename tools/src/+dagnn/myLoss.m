@@ -18,7 +18,7 @@ classdef myLoss < dagnn.Loss
         end
         outputs{1} = sum(Y(:));
         n = obj.numAveraged ;
-        m = n + numel(inputs{2});
+        m = n + size(inputs{1},4);
         obj.average = (n * obj.average + gather(outputs{1})) / m ;
         obj.numAveraged = m ;
     end
