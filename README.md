@@ -21,7 +21,7 @@ Note that on some datasets such as TID2013, the performance varies greatly when 
 
 2. `crossDatasetTrainTest.m` trains a CNN model on one dataset and tests performance on other datasets.
 
-3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. Except for NIQE, the source codes of other methods need to be downloaded and extracted into the ``supported_methods`` before evaluating these methods. 
+3. `evaluating_existing_methods.m` evaluates several representative classical BIQA methods including DIIVINE,CORNIA,BRISQUE, NIQE, IL-NIQE, HOSA and FRIQUEE. Except for NIQE, the source codes of other methods need to be downloaded and extracted into the ``supported_methods`` before evaluating these methods. For simplicity, the source codes of these motheds are packed and can be downloaded from [DropBox](https://www.dropbox.com/s/yee4xroe3i4na45/support_methods.zip?dl=0) or [BaiDuYun](https://pan.baidu.com/s/1gfo2Rr9).
 
 **How to run the Code**
 
