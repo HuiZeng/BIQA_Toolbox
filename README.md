@@ -27,7 +27,7 @@ Note that on some datasets such as TID2013, the performance varies greatly when 
 
 1. Download the [MatConvNet](http://www.vlfeat.org/matconvnet/) into ``tools`` and Compile it according to the guidence therein. 
 
-2. Create a new folder ``pretrained_models`` and download the pre-trained [AlexNet](http://www.vlfeat.org/matconvnet/models/imagenet-caffe-alex.mat) or [ResNet](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) into ``pretrained_models`` if necessary.
+2. Create a new folder ``pretrained_models`` and download the pre-trained [AlexNet](http://www.vlfeat.org/matconvnet/models/imagenet-caffe-alex.mat) or [ResNet50](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) into ``pretrained_models`` if necessary.
 
 3. Create a new folder ``databases``. Download an IQA dataset into ``databases`` and extract the files. Currently, four datasets are supported including the LIVE Challenge, LIVE IQA, CSIQ and TID2013. 
 
@@ -36,7 +36,7 @@ Note that on some datasets such as TID2013, the performance varies greatly when 
 5. Run any of the three main functions.
 
 # Results
-The median SRCC (std SRCC) of 10 repititions of different methods on different datasets.
+The median SRCC (std SRCC) of 10 repititions of different methods on different datasets. Note that the results of CNN models may be slightly different because of the randomness in the training process of CNN models.
 
 |    Methods   | LIVE Challenge        | LIVE IQA             | CSIQ                |  TID2013             |
 |:------------:|:---------------------:|:--------------------:|:-------------------:|:--------------------:|
