@@ -31,7 +31,7 @@ Note that on some datasets such as TID2013, the performance varies greatly when 
 
 2. Create a new folder ``pretrained_models`` and download the pre-trained [AlexNet](http://www.vlfeat.org/matconvnet/models/imagenet-caffe-alex.mat) or [ResNet50](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) into ``pretrained_models`` if necessary.
 
-3. Create a new folder ``databases``. Download an IQA dataset into ``databases`` and extract the files. Currently, four datasets are supported including the LIVE Challenge, LIVE IQA, CSIQ and TID2013. 
+3. Create a new folder ``databases``. Download an IQA dataset into ``databases`` and extract the files. Currently, four datasets are supported including the [LIVE Challenge](http://live.ece.utexas.edu/research/ChallengeDB/index.html), [LIVE IQA](http://live.ece.utexas.edu/research/quality/subjective.htm), [CSIQ](http://vision.eng.shizuoka.ac.jp/mod/page/view.php?id=23) and [TID2013](http://www.ponomarenko.info/tid2013.htm). 
 
 4. The 64-bit compiled libSVM are already included in `tools`. If they are not compatible to your device, please download the [source code](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) and compile it on your own device.
 
