@@ -1,6 +1,6 @@
 # Introduction
 
-This Toolbox contains the source code for the following technical report:
+This Toolbox contains the source code of the following technical report:
 
     @article{DBLP:journals/corr/abs-1708-08190,
       author    = {Hui Zeng and
