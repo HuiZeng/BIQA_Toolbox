@@ -11,7 +11,18 @@ This Toolbox contains the source code for the following technical report:
       url       = {http://arxiv.org/abs/1708.08190},
     }
 
-A simplified version of this article was accepted by ICIP 2018.
+A simplified version of this article was accepted by ICIP 2018. You may cite the accepted paper by:
+
+    @inproceedings{Zeng_PQR,
+      author    = {Hui Zeng and
+                   Lei Zhang and
+                   Alan C. Bovik},
+      title     = {A Probabilistic Quality Representation Approach to Deep Blind Image
+                   Quality Prediction},
+      booktitle = {2018 IEEE International Conference on Image Processing (ICIP)},
+      pages     = {--},
+      year      = {2018},
+    }
 
 Note that on some datasets such as TID2013, the performance varies greatly when using different training and testing splits. However, it is too cumbersome for deep BIQA methods to repeat experiments as many times (usually more than 100) as the classical methods. This can make it hard to conduct fair comparisons of results reported in different articles. Thus, this Toolbox also aims to provide relatively fair benchmark performances (by using the same 10 randomly generated training and testing splits, see `/tools/setupDataset/generateTrainingSet.m`) of several popular CNN architectures and some classical blind image quality assessment (BIQA) methods using hand-crafted features on four representative image quality assessment (IQA) datasets.
 
