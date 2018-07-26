@@ -17,8 +17,8 @@ A simplified version of this article was accepted by ICIP 2018. You may cite the
       author    = {Hui Zeng and
                    Lei Zhang and
                    Alan C. Bovik},
-      title     = {A Probabilistic Quality Representation Approach to Deep Blind Image
-                   Quality Prediction},
+      title     = {BLIND IMAGE QUALITY ASSESSMENT WITH A PROBABILISTIC QUALITY
+                   REPRESENTATION},
       booktitle = {2018 IEEE International Conference on Image Processing (ICIP)},
       pages     = {--},
       year      = {2018},
