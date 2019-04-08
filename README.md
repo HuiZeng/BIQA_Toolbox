@@ -83,10 +83,6 @@ The median PLCC (std PLCC) of 10 repititions of different methods on different d
 | S_CNN_SQR    | 0.6729 (0.0309)       | 0.9455 (0.0249)     | 0.8987 (0.0234)     |  0.6921 (0.1314)     |
 | S_CNN_PQR    | 0.7032 (0.0298)       | 0.9656 (0.0219)     | **0.9267 (0.0219)** |  0.7497 (0.1089)     |
 
-# Update
-
-This toolbox will be constantly updated to include or re-implement state-of-the-art BIQA methods, especially on the [LIVE Challenge](http://live.ece.utexas.edu/publications/2016/ghadiyaram2016massive.pdf) dataset which is the existing largest dataset with authentic distortions.
-
 # License
 
 This toolbox is made available for research purpose only. 
